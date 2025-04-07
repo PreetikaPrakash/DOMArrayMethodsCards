@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Tint&family=Cormorant:ital,wght@0,600;1,600&family=Jersey+15&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+MX+Guides&family=Red+Rose:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+body {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+h2 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+.container {
+  background-color: burlywood;
+  height: 500px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  border-radius: 20px;
+  /* box-shadow: 0px 4px 15px rgba(173, 255, 47, 0.6); */
+  box-shadow: 0px 4px 15px rgba(173, 255, 47, 0.8),
+    0px 0px 20px rgba(5, 25, 247, 0.3); /* add soft yellow glow */
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 10px;
+}
+button {
+  margin: 10px;
+  width: 220px;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  font-size: 14px;
+  background-image: url(images/dollarphoto.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: start;
+}
+.mid-line {
+  height: 500px;
+  background-color: black;
+  width: 2px;
+  margin-left: 5px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 7px 0 25px;
+  width: 90%;
+}
+.headings {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 90%;
+  color: rgb(2, 2, 2);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.inputs-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 90%;
+  background-color: antiquewhite;
+  color: rgb(222, 29, 29);
+  margin-bottom: 10px;
+  text-align: center;
+}
